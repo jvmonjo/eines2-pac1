@@ -5,3 +5,5 @@ S'ha afegit la propietat lang al HTML per a definir l'idioma principal del docum
 
 S'han usat etiquetes semàntiques. Per definir el layout principal s'ha usat un header un main i un footer.
 
+s'ha afegit un min-height de 100vh al main per garantir que el peu quede sempre a la part de baix de la pantalla.
+
