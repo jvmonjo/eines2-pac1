@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="ca">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
@@ -8,15 +8,40 @@
     <title>UOC Boilerplate</title>
   </head>
   <body>
-    <img src="assets/images/logo.png" alt="Universitat Oberta de Catalunya" class="uoc-logo">
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Development at the Universitat Oberta de
-      Catalunya.
-    </p>
+    <header>
+      <a class="menu logo" href="/"> 
+        CV
+      </a>
+      <div class="menu-btn">
+        <button id="menu-btn" class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a class="menu" href="#estudis">Estudis</a></li>
+          <li><a class="menu" href="#experiencia">Experiència</a></li>
+          <li><a class="menu" href="#altres">Altres</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+    <main>
+      <div class="row">
+        <div class="col">
+          <img class="profile" src="assets/images/logo.png" alt="Foto">
+        </div>
+        <div class="col col-2">
+          <h1>Josep Vicent Monjo i Agut</h1>
+        </div>
+      </div>
 
+    </main>
+    <footer>
+
+    </footer>
     <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
 </html>
