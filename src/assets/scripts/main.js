@@ -9,7 +9,8 @@
 /**
  * Write any other JavaScript below
  */
-
+import handleMenu from './menu';
 +( function() {
   console.log('Hello, UOC!');
+  handleMenu();
 } )();
