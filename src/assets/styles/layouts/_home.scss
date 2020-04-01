@@ -1,21 +1,21 @@
-body {
-  margin: 0;
-  padding: 30px;
-  font-family: $font-family-sans-serif;
-  background-color: $uoc-bg;
-  color: $uoc-corporate;
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.uoc-logo {
-  display: block;
-  margin-bottom: 20px;
-  max-width: 300px;
-  height: auto;
+.col {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 36px;
-  font-weight: 700;
-  color: $uoc-corporate;
+.col-2 {
+  flex: 2;
+}
+
+.profile {
+  max-width: 80%;
 }

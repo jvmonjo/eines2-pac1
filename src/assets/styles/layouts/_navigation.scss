@@ -1,0 +1,92 @@
+@import "hamburguer/_hamburguer";
+
+header {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  a {
+    text-decoration: none;
+  }
+}
+
+nav {
+  @include for-tablet-or-less {
+    visibility: hidden;
+    margin-top: -1900px;
+    display: none;
+    height: 0;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+nav.is-active {
+  @include for-tablet-or-less {
+    visibility: visible;
+    margin-top: 0;
+    display: block;
+    height: auto;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  @include for-tablet-or-less {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}
+
+.menu-btn {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  @include for-tablet-or-less {
+    display: block;
+  }
+}
+
+nav ul li {
+  margin: 0 1rem;
+
+  @include for-tablet-or-less {
+    margin: 0.5rem 0;
+  }
+}
+
+nav ul li.active::after {
+  height: 3px;
+  width: 100%;
+  display: block;
+  background-color: white;
+  content: '';
+}
+
+nav ul li::after {
+  height: 3px;
+  width: 0;
+  display: block;
+  background-color: white;
+  content: '';
+  transition: 0.5s ease-in-out;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+
+.menu-btn {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  @include for-tablet-or-less {
+    display: block;
+  }
+}

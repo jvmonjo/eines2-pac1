@@ -3,7 +3,8 @@
  */
 
 @import "variables";
-
+@import "mixins";
+@import "common";
 /**
  * Import npm dependencies
  * see: https://en.parceljs.org/module_resolution.html
@@ -19,6 +20,7 @@
  */
 
 @import "layouts/home";
+@import "layouts/navigation";
 
 /**
  * Do NOT include anything else in this file!
