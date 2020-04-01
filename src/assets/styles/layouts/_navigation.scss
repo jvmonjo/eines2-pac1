@@ -4,9 +4,21 @@ header {
   min-height: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: $main-color;
+  color: white;
   a {
     text-decoration: none;
+    color: white;
   }
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 1.2rem;
+  font-weight: 900;
 }
 
 nav {
@@ -27,11 +39,16 @@ nav.is-active {
     height: auto;
     transition: 0.5s ease-in-out;
   }
+  ul {
+    margin: 50px 0 10px 0;
+  }
 }
 
 nav ul {
   display: inline-flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
   @include for-tablet-or-less {
     display: flex;
     flex-flow: column;
