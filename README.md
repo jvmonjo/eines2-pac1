@@ -7,3 +7,6 @@ S'han usat etiquetes semàntiques. Per definir el layout principal s'ha usat un 
 
 s'ha afegit un min-height de 100vh al main per garantir que el peu quede sempre a la part de baix de la pantalla.
 
+## Guia d'estils
+S'ha instal·lat stylelint amb una configuració estàndard amb algunes regles específiques de scss.
+
