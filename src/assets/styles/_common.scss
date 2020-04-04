@@ -2,11 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: $font-family-sans-serif;
+  color: $dark-grey;
 }
 
-//
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-family-serif;
+}
+
 // Flex layout
-//
 
 .row {
   display: flex;
@@ -24,7 +31,3 @@ body {
 .col-2 {
   flex: 2;
 }
-
-//
-// End flex layout
-//

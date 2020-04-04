@@ -99,3 +99,14 @@ nav ul li:hover::after {
   width: 100%;
   transition: 0.5s ease-in-out;
 }
+
+// hamburger overrides
+
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before,
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::after,
+.hamburger.is-active .hamburger-inner::before {
+  background-color: white;
+}
