@@ -9,6 +9,7 @@
 /**
  * Write any other JavaScript below
  */
+import '@fortawesome/fontawesome-free/css/all.css'
 import handleMenu from './menu';
 +( function() {
   console.log('Hello, UOC!');
