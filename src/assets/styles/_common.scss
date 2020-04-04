@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -20,12 +24,20 @@ h5 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+
+  @include for-phone-only {
+    display: block;
+  }
 }
 
 .col {
   display: flex;
   flex-direction: column;
   flex: 1;
+
+  @include for-phone-only {
+    margin-bottom: 2rem;
+  }
 }
 
 .col-2 {

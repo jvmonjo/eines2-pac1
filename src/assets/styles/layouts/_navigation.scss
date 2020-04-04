@@ -33,9 +33,8 @@ nav {
 
   ul {
     display: inline-flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+
+    @include reset-list;
 
     @include for-tablet-or-less {
       display: flex;

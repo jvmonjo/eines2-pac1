@@ -6,3 +6,4 @@ $font-family-serif: "Georgia", "Times New Roman", serif;
 $main-color: #326f00;
 $light-grey: #8e8e8e;
 $dark-grey:  #323232;
+$main-color-bg: color.scale($main-color, $lightness: 70%);
