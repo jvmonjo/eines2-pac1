@@ -5,10 +5,11 @@ main {
 
 footer {
   padding: 1rem;
+  font-size: 0.8rem;
 }
 
 .profile {
-  background-color: $main-color-bg;
+  border-left: solid 5px $main-color-bg;
   padding: 1rem;
   border-radius: 5px;
   max-width: 90%;
@@ -16,10 +17,13 @@ footer {
 
 .profile__img {
   width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
 .profile__data {
   padding-left: 1rem;
+  font-size: 0.8rem;
 
   ul {
     @include reset-list;
@@ -35,4 +39,18 @@ footer {
 .subtile {
   margin: 0;
   color: $light-grey;
+}
+
+.disabled {
+  opacity: 0.7;
+}
+
+.estudies__list,
+.abilities__list,
+.experience__list {
+  @include reset-list;
+}
+
+.abilities h3 {
+  margin: 0 0 0.5rem 0;
 }

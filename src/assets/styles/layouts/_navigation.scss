@@ -24,11 +24,10 @@ header {
 
 nav {
   @include for-tablet-or-less {
-    visibility: hidden;
     margin-top: -1900px;
     display: none;
     height: 0;
-    transition: 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
   ul {
@@ -46,11 +45,10 @@ nav {
 
 nav.is-active {
   @include for-tablet-or-less {
-    visibility: visible;
     margin-top: 0;
     display: block;
     height: auto;
-    transition: 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 
   ul {
