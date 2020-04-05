@@ -8,6 +8,11 @@ footer {
   font-size: 0.8rem;
 }
 
+section {
+  margin-top: 3rem;
+  border-top: dashed 5px $main-color-bg;
+}
+
 .profile {
   border-left: solid 5px $main-color-bg;
   padding: 1rem;
@@ -36,7 +41,7 @@ footer {
   margin: 0 0 0.8rem 0;
 }
 
-.subtile {
+.subtitle {
   margin: 0;
   color: $light-grey;
 }
@@ -49,6 +54,12 @@ footer {
 .abilities__list,
 .experience__list {
   @include reset-list;
+
+  li {
+    border-left: solid 5px $main-color-bg;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .abilities h3 {
