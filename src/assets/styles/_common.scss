@@ -17,6 +17,11 @@ h5 {
   font-family: $font-family-serif;
 }
 
+a {
+  text-decoration: none;
+  color: $main-color;
+}
+
 // Flex layout
 
 .row {
