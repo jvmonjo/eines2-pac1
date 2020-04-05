@@ -1,7 +1,7 @@
 # Documentació
 
 ## Guia d'estils
-S'ha instal·lat stylelint amb una configuració estàndard amb algunes regles específiques de scss.
+S'ha instal·lat stylelint amb una configuració estàndard amb algunes regles específiques de scss. S'ha procurat seguir una convenció en la nomenclatura basada en BEM.
 
 ## HTML
 S'ha afegit la propietat lang al HTML per a definir l'idioma principal del document.
