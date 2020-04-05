@@ -23,7 +23,7 @@ S'han afegit com a dependències externes:
 
 ## Validació
 La web s'ha validat en els següents estàndards:
-- CSS3: https://jigsaw.w3.org/
+- CSS3: https://jigsaw.w3.org/css-validator/
 - HTML5: https://validator.w3.org/
 - Accessibility Review (Guidelines: WCAG 2.0 (Level AA)): https://achecker.ca/checker/index.php
 
